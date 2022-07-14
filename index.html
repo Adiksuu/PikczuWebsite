@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pikczu Website</title>
+		<link rel="stylesheet" href="/src/assets/Css/style.css" />
+		<link rel="stylesheet" href="/src/assets/Css/template.css" />
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		/>
+		<link rel="shortcut icon" href="/src/assets/Images/channels4_profile.png" type="image/x-icon">
+	</head>
+	<body>
+		<div class="scrollToTop-btn">
+			<i class="fas fa-angle-up"></i>
+		</div>
+
+		<header class="l-header">
+			<nav class="nav bd-grid">
+				<div>
+					<a href="#" class="nav__logo">Pikczu Website</a>
+				</div>
+
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active">GŁÓWNA</a>
+						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">INFORMACJE</a>
+						</li>
+						<li class="nav__item">
+							<a href="#youtube" class="nav__link">YOUTUBE</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">KONTAKT</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="nav__toggle" id="nav-toggle">
+					<i class="fas fa-bars"></i>
+				</div>
+			</nav>
+		</header>
+
+		<div class="wrapper">
+			<div class="content">
+				<header>Pliki Cookies</header>
+				<p>
+					Ta witryna wykorzystuje pliki cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny.
+				</p>
+				<div class="buttons">
+					<button class="item">Rozumiem</button>
+					<a href="https://cookiepedia.co.uk/giving-consent-to-cookies"
+						>Więcej...</a
+					>
+				</div>
+			</div>
+		</div>
+
+		<main class="l-main">
+			<section class="home bd-grid" id="home">
+				<div class="home__data">
+					<h1 class="home__title">
+						Witaj! <br />Jestem <span class="home__title-color">Pikczu</span>
+					</h1>
+					<p class="home__subtitle">
+						Cześć! Możliwe że nie wiesz, ale prowadzę swój kanał na platformie
+						YouTube, subskrybcja milewidziana :D
+					</p>
+					<button
+						class="color-red border-15 tran-border drop"
+						onclick="YtPage();"
+					>
+						SUBSKRYBUJ
+					</button>
+				</div>
+
+				<div class="home__social drop">
+					<a href="https://instagram.com/pikczuig" class="home__social-icon"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a href="https://twitter.com/Pikczu3" class="home__social-icon"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a href="https://www.youtube.com/c/Pikczuuu" class="home__social-icon"
+						><i class="fab fa-youtube"></i
+					></a>
+					<a href="https://discord.gg/acqNpd8dKX" class="home__social-icon"
+						><i class="fab fa-discord"></i
+					></a>
+				</div>
+
+				<div class="home__img">
+					<img src="/src/assets/Images/channels4_profile.png" />
+				</div>
+			</section>
+
+			<div class="newsletter reveal">
+			</div>
+
+			<section class="about section" id="about">
+				<div class="about__container bd-grid">
+					<div>
+						<h2 class="about__subtitle reveal">Kanał YouTube</h2>
+						<p class="about__text reveal">
+							Cześć jestem Pikczu, prowadzę własny kanał w serwisie YouTube już
+							od ponad roku! Na kanale znajdziesz ciekawe materiały z gry
+							Minecraft, możesz również znaleść stare filmy z innych gier. Jeśli
+							chcesz możesz również wpaść na mój drugi kanał z shortami!
+							Serdzenie zapraszam do subskrybowania jeśli interesują Ciebie
+							filmy o tematyce gier!
+						</p>
+					</div>
+
+					<div class="about__img">
+						<img
+							class="drop"
+							src="/src/assets/Images/pikczuLogo.png"
+							alt="logo"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section id="youtube" class="youtube">
+				<h1 class="section-title reveal">Ostatni Film</h1>
+				<div class="content drop">
+					<iframe
+						width="920"
+						height="530"
+						src="https://www.youtube.com/embed/iSp1tA5lYDI"
+						title="Ostatni Film"
+						frameborder=""
+						allow="accelerometer; clipboard-write; encrypted-media; gyroscope;"
+						allowfullscreen
+					></iframe>
+				</div>
+			</section>
+
+			<section id="contact" class="contact">
+				<h1 class="section-title reveal">Kontakt</h1>
+				<div class="content reveal">
+					<div class="contact__box drop" id="email">
+						<div class="icon" id="email">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="info">
+							<h1 class="contact__text">EMAIL</h1>
+							<p class="contact__subtext">pikczuu@protonmail.com</p>
+						</div>
+					</div>
+					<div class="contact__box drop" id="yt" onclick="YtPage();">
+						<div class="icon" id="yt">
+							<i class="fab fa-youtube"></i>
+						</div>
+						<div class="info">
+							<h1 class="contact__text">YOUTUBE</h1>
+							<p class="contact__subtext">Pikczu</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p class="footer__title">Adiksuu</p>
+
+			<div class="footer__social">
+				<a href="https://be.net/Adiksuu" class="footer__icon"
+					><i class="fab fa-behance"></i
+				></a>
+				<a href="https://patreon.com/Adiksuu" class="footer__icon"
+					><i class="fab fa-patreon"></i
+				></a>
+				<a href="https://github.com/Adiksuu" class="footer__icon"
+					><i class="fab fa-github"></i
+				></a>
+			</div>
+
+			<p>&#169; 2022 copyright <span>CodeAdiksuu</span>.</p>
+		</footer>
+		<script src="/src/scripts/script.js"></script>
+	</body>
+</html>
